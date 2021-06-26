@@ -1,0 +1,149 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(4, 70, 26);
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #logo{
+      margin:0;
+      padding:0;
+      float:left;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  body{
+    margin: 0;
+  }
+
+  .contenu h1{
+    
+    background-color: white;
+    color: rgb(35, 87, 35);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .contenu{
+    background:url("file/fond.jpg") fixed no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10%;
+    height: 100vh;
+
+  }
+
+  .contenu a{
+    text-align: center;
+    margin:0;
+    padding: 0;
+    background-color: rgb(35, 87, 35);
+    color:honeydew;
+    padding: 5px;
+  }
+
+  .about{
+    position:relative;
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about img{
+    top:0;
+    float:right;
+  }
+
+  .about div{
+    position:relative;
+    max-width: 750px;
+    text-align: center;
+
+  }
+
+  .about h1{
+    color:rgb(31, 88, 31);
+    font-size:50px;
+  }
+  .about p{
+    color:rgb(31, 88, 31);
+    font-size:18px;
+  }
+
+  footer{
+    background-color:rgb(31, 88, 31);
+    height: 500px;
+    padding: 50px
+  }
+
+  footer img{
+    float:left;
+    width: 500px;
+  }
+  footer div{
+    margin-left: 500px;
+    max-width: 750px;
+    text-align: center;
+
+  }
+
+  footer h1{
+    color:rgb(233, 248, 233);
+    font-size:50px;
+  }
+  footer p{
+    color:white;
+    font-size:18px;
+  }
+
+/* Page de connexion */
+.connexion{
+  margin: 0;
+  background: url('file/connexion.jpg') fixed no-repeat;
+  height: 100vh
+}
+.connexion form{
+ /* margin-left: auto;
+  margin-right: auto; */
+  margin: auto;
+  color:rgb(8, 6, 14);
+  width:50%;
+ font-weight: bold;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif ;
+background-color: rgb(46, 100, 46);
+padding:20px;
+height: 100vh;
+}
+.champ {
+  border: 1px dotted #999;
+  border-radius: 15PX;
+  width: 400px;
+  height: 40px;
+}
+
+td button, .bouton{
+  width: 200px;
+  height: 40px;
+}

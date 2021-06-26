@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Titre de la page</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"  type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="connexion">
+                        <form >
+                            <h1 >
+                                    INSCRIPTION
+                            </h1>
+                            <table>
+                                <tr>
+                                    <td>Noms: <br> 
+                                        <input  class="champ" type="text" name="noms" id="noms" onblur="valideContact();" required ></td>
+                                    <td><span id='messageContact'></span></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>Date de naissance <br> 
+                                        <input  class="champ" type="date" name="dateNaissance"  required></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>Numero de Telephone: <br> 
+                                        <input  type="text" class="champ" name="telephone" onblur="valideNumero();" ></td>
+                                    <td><span id='messageNumero'></span></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>Ville: <br>
+                                        <input class="champ" type="text" name="ville"></td>
+                                    <td><span id='messageVille'></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Adresse email: <br> 
+                                        <input class="champ"  type="email" name="email"  ></td>
+                                    <td><span id='messageEmail'></span></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>Mot de pass: <br>
+                                        <input class="champ" type="password" name="motPass"></td>
+                                    <td><span id='messageMP'></span></td>
+                                </tr>
+                                <tr>
+                                    <td><input  id="" type="checkbox" name="condition"> 
+                                        J'accepte les <a href="" id='condition'>condition d'utilisation</a> </td>
+                                <tr>
+                                    <td><input class="bouton" type="submit" value="S'inscrire"></td>
+                                    </tr>
+                                <span> Se connecter<a href="connexion.html"> ici.</a></span>
+                            </table>
+                            
+                        </form>
+        </div>
+    </body>
+    
+</html>
