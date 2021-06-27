@@ -1,3 +1,4 @@
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -31,24 +32,31 @@ ul {
 
   body{
     margin: 0;
+    padding: 0;
+    background:url("file/fond.jpg")  no-repeat;
   }
 
   .contenu h1{
     
     background-color: white;
+    display: block;
     color: rgb(35, 87, 35);
     text-align: center;
+   width: 70%;
+   padding:2%;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    margin-top: 10%;
+    border:solid green;
+    /*width: 50%;*/
   }
   .contenu{
-    background:url("file/fond.jpg") fixed no-repeat;
-    margin-left: auto;
-    margin-right: auto;
+    
+    margin: 0;
     text-align: center;
-    padding: 10%;
+    padding:0;
     height: 100vh;
+    width: 100%;
 
   }
 
@@ -59,7 +67,6 @@ ul {
     background-color: rgb(35, 87, 35);
     color:honeydew;
     padding: 5px;
-    text-decoration:none;
   }
 
   .about{
@@ -74,11 +81,12 @@ ul {
   .about img{
     top:0;
     float:right;
+    width:40%;
   }
 
   .about div{
     position:relative;
-    max-width: 750px;
+    
     text-align: center;
 
   }
@@ -89,29 +97,31 @@ ul {
   }
   .about p{
     color:rgb(31, 88, 31);
-    font-size:18px;
+    
   }
 
   footer{
     background-color:rgb(31, 88, 31);
-    height: 500px;
-    padding: 50px
+    height: 70vh;
+    padding: 5%;
+    
   }
 
   footer img{
     float:left;
-    width: 500px;
+    width: 40%;
   }
   footer div{
-    margin-left: 500px;
-    max-width: 750px;
+    float: right;
     text-align: center;
+    padding-right: 20%;
+    
 
   }
 
-  footer h1{
+  footer h2{
     color:rgb(233, 248, 233);
-    font-size:50px;
+    
   }
   footer p{
     color:white;
@@ -122,7 +132,7 @@ ul {
 .connexion{
   margin: 0;
   background: url('file/connexion.jpg') fixed no-repeat;
-  height: 100vh
+  height: 100vh;
 }
 .connexion form{
  /* margin-left: auto;
@@ -135,7 +145,7 @@ ul {
   font-family: 'Times New Roman', Times, serif ;
 background-color: rgb(46, 100, 46);
 padding:20px;
-height: 100vh;
+height: 100%;
 }
 .champ {
   border: 1px dotted #999;
