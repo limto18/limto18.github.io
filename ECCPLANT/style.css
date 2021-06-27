@@ -55,7 +55,7 @@ ul {
     margin: 0;
     text-align: center;
     padding:0;
-    height: 100vh;
+    height: 75vh;
     width: 100%;
 
   }
@@ -76,12 +76,14 @@ ul {
     display:flex;
     justify-content: center;
     align-items: center;
+    margin-top: 0;
   }
 
   .about img{
     top:0;
     float:right;
     width:40%;
+    height: 80%;
   }
 
   .about div{
@@ -93,7 +95,7 @@ ul {
 
   .about h1{
     color:rgb(31, 88, 31);
-    font-size:50px;
+    
   }
   .about p{
     color:rgb(31, 88, 31);
